@@ -1,0 +1,22 @@
+.marketplace {
+    padding: 20px;
+}
+
+.marketplace h1 {
+    margin-bottom: 20px;
+}
+
+.marketplace-items {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.marketplace-settings {
+    max-width: 600px;
+}
+
+.marketplace-settings .form-group {
+    margin-bottom: 20px;
+}
