@@ -1,0 +1,22 @@
+{
+    "id": "nodebb-plugin-marketplace",
+    "url": "https://github.com/czargasm/nodebb-plugin-marketplace",
+    "library": "./library.js",
+    "hooks": [
+        { "hook": "static:app.load", "method": "init" },
+        { "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+        { "hook": "filter:header.build", "method": "addNavigation" },
+        { "hook": "filter:widgets.getAreas", "method": "getAreas" }
+    ],
+    "staticDirs": {
+        "static": "./static"
+    },
+    "css": [
+        "static/css/marketplace.css"
+    ],
+    "scripts": [
+        "static/js/marketplace.js"
+    ],
+    "templates": "templates",
+    "languages": "languages"
+}
